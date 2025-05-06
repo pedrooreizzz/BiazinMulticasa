@@ -1,0 +1,53 @@
+.bg-body-tertiary {
+    background-color: #F5FBEF !important;
+    box-shadow: 0 0 10px #F25218;
+    margin-bottom: 30px;
+}
+
+.navbar {
+    .navbar-brand {
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+    }
+
+    .navbar-toogler {
+        background-color: black;
+    }
+
+    .nav-link {
+        color: black;
+    }
+
+    .nav-link:hover {
+        color: rgb(129, 129, 129);
+    }
+
+    .active {
+        color: #F25218 !important;
+    }
+
+    .navbar-nav .nav-link.show {
+        color: rgb(0, 38, 255);
+    }
+}
+
+.btn {
+    border-radius: 10px;
+    color: black;
+}
+
+.btn-warning {
+    background-color: #F25218;
+    border: 0;
+    &:hover {
+        background-color: black;
+        color: white;
+    }
+}
+
+.row {
+    .col {
+        border: 1px solid #333;
+    }
+}
