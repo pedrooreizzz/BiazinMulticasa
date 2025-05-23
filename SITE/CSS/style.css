@@ -1,14 +1,15 @@
 .bg-body-tertiary {
-    background-color: #F5FBEF !important;
-    box-shadow: 0 0 10px #F25218;
+    background-color: #FFFFFF !important;
+    box-shadow: 0 0 10px #6D6D6D;
     margin-bottom: 30px;
 }
 
 .navbar {
+
     .navbar-brand {
         color: black;
         font-family: Arial, Helvetica, sans-serif;
-        padding: 15px;
+        padding: 10px;
     }
 
     .navbar-toogler {
@@ -30,6 +31,11 @@
     .navbar-nav .nav-link.show {
         color: rgb(0, 38, 255);
     }
+
+    .logo {
+        width: 150px;
+        height: auto;
+    }
 }
 
 .btn {
@@ -38,11 +44,12 @@
 }
 
 .btn-warning {
-    background-color: #F25218;
+    background-color: #F45B25;
     border: 0;
+
     &:hover {
-        background-color: black;
-        color: white;
+        background-color: #ff956e;
+        color: #2C2C2C;
     }
 }
 
@@ -50,4 +57,12 @@
     .col {
         border: 1px solid #333;
     }
+}
+
+body {
+    background-color: #e7e7e7;
+}
+
+.active {
+    width: 100%;
 }
